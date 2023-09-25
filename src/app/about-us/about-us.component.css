@@ -1,0 +1,21 @@
+.aboutContainer {
+  color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  position: relative;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+@media only screen and (min-width: 600px) {
+  .aboutContainer {
+    top: -10em;
+    position: relative;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+}
